@@ -33,8 +33,7 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <version>3.3.2</version>
             </plugin>
-        </plugins>
-      <plugin>
+          <plugin>
     <groupId>org.codehaus.cargo</groupId>
     <artifactId>cargo-maven3-plugin</artifactId> <!-- Or cargo-maven2-plugin depending on version -->
     <configuration>
@@ -55,5 +54,6 @@
         </configuration>
     </configuration>
 </plugin>
+        </plugins>
   </build>
 </project>
