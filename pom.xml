@@ -32,10 +32,10 @@
 		<target>8</target>
 		<properties>
                 <cargo.tomcat.manager.url>http://localhost:9090/manager/text</cargo.tomcat.manager.url>
-                <cargo.remote.username>tomcat9</cargo.remote.username>
-                <cargo.remote.password>Pa$sword</cargo.remote.password>
+                <cargo.remote.username>tomcat</cargo.remote.username>
+                <cargo.remote.password>password</cargo.remote.password>
             </properties>
-            </configuration>
+            </configuration
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
