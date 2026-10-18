@@ -33,29 +33,6 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <version>3.3.2</version>
             </plugin>
-          <plugin>
-    <groupId>org.codehaus.cargo</groupId>
-    <artifactId>cargo-maven3-plugin</artifactId> <!-- Or cargo-maven2-plugin depending on version -->
-    <configuration>
-        <container>
-            <containerId>tomcat9x</containerId> <!-- Your container ID -->
-            <type>remote</type>
-        </container>
-        <configuration>
-            <type>runtime</type>
-            <properties>
-                <!-- Define your remote server credentials here -->
-                <cargo.remote.username>tomcat</cargo.remote.username>
-                <cargo.remote.password>password</cargo.remote.password>
-                
-                <!-- Other required properties depending on your container -->
-                <cargo.tomcat.manager.url>http://localhost:9090/manager/text</cargo.tomcat.manager.url>
-              <maven.compiler.source>21</maven.compiler.source>
-    <maven.compiler.target>21</maven.compiler.target>
-            </properties>
-        </configuration>
-    </configuration>
-</plugin>
         </plugins>
   </build>
 </project>
